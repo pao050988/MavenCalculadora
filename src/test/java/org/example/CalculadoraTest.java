@@ -1,9 +1,10 @@
 package org.example;
 
-import junit.framework.TestCase;
-import org.junit.Test;
 
-public class CalculadoraTest extends TestCase {
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class CalculadoraTest {
 	Main calculadora = new Main();
 
 
